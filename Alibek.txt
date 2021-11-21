@@ -1,0 +1,112 @@
+<?php
+//$arr=[];
+//print_r($arr);
+//$arr=[1,2,3,4,5];
+//List map Dynamic array
+//$arr=[true,1,'Hello\n'];
+//Все,что можно делать с переменными, можно делать и с элементами массива
+//$arr=[];
+//$arr[]="New value";
+//$arr[]="Last Value";
+////print_r($arr);
+//echo $arr['0'];
+//$arr=[];
+//$arr[]="New value";
+//$arr[]="Last Value";
+////$arr[5]='Six item';
+//$arr['asd']='Item';
+////print_r($arr);
+//echo var_export($arr);
+//$arr=[123,012];
+//var_export($arr);
+//$person=[
+//    'name' => 'Alibek',
+//    'age' => 17,
+//    guns=>['weapon','glock'];
+//];
+//var_export($person);
+//$arr=[];
+//$arr[]='val';
+//array_push($arr,'val2','val3');
+//var_export($arr);
+//$arr=[];
+//$arr[]='val';
+//$arr=array_reverse($arr);
+//$arr[]='first';
+//$arr=array_reverse($arr);
+//array_unshift($arr,'first','new');
+//var_export($arr);
+//$arr=[];
+//$arr[]='first';
+//$arr[]='last';
+//echo array_shift($arr) . "\n";
+//var_export($arr);
+//$arr=[];
+//$arr['first']='first';
+//$arr[5]='last';
+//echo array_shift($arr) . "\n";
+//var_export($arr);
+//$arr=[];
+//$arr['first']='first';
+//$arr[5]='last';
+//echo array_pop($arr) . "\n"; //удаление
+//var_export($arr);
+//$arr=[];
+//$arr['first']='first';
+//$arr['last']='last';
+////standart package library
+//echo "Arr count: " . count($arr);
+//$arr=[];
+//$arr[]='first';
+//$arr[]='last';
+//
+//echo $arr[count($arr)-1];
+//$arr=[];
+//$arr[]='first';
+//$arr['ad']='last';
+//
+//echo $arr[array_key_last($arr)];
+//$arr=[];
+//$arr['qwes']='first';
+//заменяет значение индекса на 0 и 1
+//$arr['ext']='last';
+//$arr = array_values($arr);
+//var_export($arr);
+//array_keys выводит массивы ключей
+//$arr=[];
+//$arr['klg']='first';
+//$arr['ad']='last';
+//$keys = array_keys($arr);
+//$lastKey=$keys[count($keys)-1];
+//echo $arr[$lastKey];
+//$a=2;
+//if($a>2)
+//{
+//    echo "TRUE";
+//}
+//else
+//{
+//    echo "False;
+//}
+//null//null=void
+//null=false=0=''
+$a=2;
+//echo $a ?: 'no data';
+//switch(a)
+//{
+//    case 1:
+//        echo "1",
+//        break;
+//    case 2:
+//        echo "2",
+//        break;
+//
+//}
+//$a = match ($a) {
+//    200, 300 => null,
+//    400 => 'not found',
+//    500 => 'server error',
+//    default => 'unknown status code',
+//};
+ //isset() проверяет на существование и не равен нулю
+echo $a ?? 'No value';
